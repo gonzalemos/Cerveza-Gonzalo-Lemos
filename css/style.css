@@ -99,5 +99,5 @@ footer {
 
 @keyframes header__color {
     from {background-color: aqua;}
-    to {background-color: yellow}
+    to {background-color: red;}
   }
