@@ -54,7 +54,10 @@ li {
 
 header {
     grid-area: header;
-    background-color: aqua;
+    background-color: aqua;   
+    animation-name: header__color;
+    animation-duration: 4s;
+
 }
 
 main {
@@ -94,7 +97,7 @@ footer {
     }
 }
 
-
-
-
-
+@keyframes header__color {
+    from {background-color: aqua;}
+    to {background-color: yellow}
+  }
