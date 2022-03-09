@@ -12,10 +12,13 @@ nav {
         align-self: flex-end;
         font-size: 50px;
         padding: 1rem;
-        a:hover {
+        &:hover {
             color: aliceblue;
             background-color:gray;
             border-radius: 10px;
+        }
+        &:active {
+            color: red;
         }
     }       
 }
