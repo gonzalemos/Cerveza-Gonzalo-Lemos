@@ -1,5 +1,7 @@
 body {
-  margin: 0px;
+  margin: 0px; }
+
+body {
   font-family: Arial, Helvetica, sans-serif; }
 
 nav {
@@ -15,5 +17,3 @@ nav {
       color: aliceblue;
       background-color: gray;
       border-radius: 10px; }
-    nav li:active {
-      color: red; }

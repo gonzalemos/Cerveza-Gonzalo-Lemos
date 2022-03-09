@@ -1,7 +1,6 @@
-body {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import "colores";
+@import "estructura";
+@import "tipografia";
 
 nav {
     display: flex;
@@ -16,9 +15,6 @@ nav {
             color: aliceblue;
             background-color:gray;
             border-radius: 10px;
-        }
-        &:active {
-            color: red;
         }
     }       
 }
