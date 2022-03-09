@@ -17,10 +17,11 @@ nav {
 }
 
 .Tarjeta__imagenrubia {    
+    display: flex;
     border: 3px solid black;
     border-radius: 100px;
     width: 250px;
-    height: 600px;
+    height: 600px;    
 }
 
 .Tarjeta__imagenroja {
