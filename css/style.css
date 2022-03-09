@@ -10,6 +10,12 @@ li {
     padding: 1rem;
 }
 
+a:hover {
+    color: aliceblue;
+    background-color:gray;
+    border-radius: 10px;
+}    
+
 nav {
     display: flex;
     align-content: center;
