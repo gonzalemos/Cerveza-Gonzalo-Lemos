@@ -53,7 +53,9 @@ p {
 
 .grid__container {
   display: grid;
-  grid-template-areas: "header"     "main" "footer"; }
+  grid-template-areas: "header"    
+ "main"
+ "footer"; }
 
 header {
   grid-area: header;
@@ -71,7 +73,9 @@ footer {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .grid__container {
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header"
+ "main"
+ "footer"; }
   li {
     font-size: 20px; }
   p {
@@ -81,7 +85,9 @@ footer {
 
 @media screen and (min-width: 768px) {
   .grid__container {
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header"
+ "main"
+ "footer"; }
   li {
     font-size: 30px; }
   p {
@@ -91,7 +97,9 @@ footer {
 
 @media screen and (min-width: 1024px) {
   .grid__container {
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: "header"
+ "main"
+ "footer"; }
   li {
     font-size: 40px; }
   p {
@@ -101,7 +109,10 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .grid__container {
-    grid-template-areas: "header" "main" "footer"; }
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"; }
   li {
     font-size: 50px; }
   .Nuestros__productos {
