@@ -4,6 +4,13 @@ body {
 body {
   font-family: Arial, Helvetica, sans-serif; }
 
+.Tarjeta__imagenlata {
+  display: flex;
+  border: 3px solid black;
+  border-radius: 100px;
+  width: 250px;
+  height: 600px; }
+
 nav {
   display: flex;
   align-content: center;
@@ -17,25 +24,6 @@ nav {
       color: aliceblue;
       background-color: gray;
       border-radius: 10px; }
-
-.Tarjeta__imagenrubia {
-  display: flex;
-  border: 3px solid black;
-  border-radius: 100px;
-  width: 250px;
-  height: 600px; }
-
-.Tarjeta__imagenroja {
-  border: 3px solid black;
-  border-radius: 100px;
-  width: 250px;
-  height: 600px; }
-
-.Tarjeta__imagenipa {
-  border: 3px solid black;
-  border-radius: 100px;
-  width: 250px;
-  height: 600px; }
 
 .Nuestros__productos {
   display: flex;
@@ -53,9 +41,7 @@ p {
 
 .grid__container {
   display: grid;
-  grid-template-areas: "header"    
- "main"
- "footer"; }
+  grid-template-areas: "header"     "main" "footer"; }
 
 header {
   grid-area: header;
@@ -73,9 +59,7 @@ footer {
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .grid__container {
-    grid-template-areas: "header"
- "main"
- "footer"; }
+    grid-template-areas: "header" "main" "footer"; }
   li {
     font-size: 20px; }
   p {
@@ -85,9 +69,7 @@ footer {
 
 @media screen and (min-width: 768px) {
   .grid__container {
-    grid-template-areas: "header"
- "main"
- "footer"; }
+    grid-template-areas: "header" "main" "footer"; }
   li {
     font-size: 30px; }
   p {
@@ -97,9 +79,7 @@ footer {
 
 @media screen and (min-width: 1024px) {
   .grid__container {
-    grid-template-areas: "header"
- "main"
- "footer"; }
+    grid-template-areas: "header" "main" "footer"; }
   li {
     font-size: 40px; }
   p {
@@ -109,10 +89,7 @@ footer {
 
 @media screen and (min-width: 1200px) {
   .grid__container {
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"; }
+    grid-template-areas: "header" "main" "footer"; }
   li {
     font-size: 50px; }
   .Nuestros__productos {
